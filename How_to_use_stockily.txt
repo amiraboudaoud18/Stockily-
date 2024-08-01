@@ -1,0 +1,14 @@
+How to get the project to work:
+•    Under the zipped file of the full project 
+•    Unzip the file
+•    Note that you should have the composer installed 
+•    If not install it from here : https://getcomposer.org/ 
+•    Run : composer install  in the cmd or in the ide terminal within the directory of the project 
+•    Run : php artisan migrate
+•    Chose yes making sure to not have the same database name in phpmyadmin
+•    Run :php artisan serve
+•    if pictures do not show: delete storage folder situated in public then run the command :
+							php artisan storage:link
+•	if you have a mysql connection error : install xampp/MAMPS or whatever works for you.
+
+made with <3 by Orchode.
